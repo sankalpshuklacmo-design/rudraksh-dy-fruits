@@ -3,193 +3,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rudraksh Dry Fruits and Spices | E Block Market, Rajajipuram</title>
-  <meta name="description" content="Rudraksh Dry Fruits and Spices — E Block Market, Rajajipuram. Premium dry fruits, masale aur packed grocery." />
+  <title>Rudraksh Dry Fruits and Spices | Shop Nuts, Masale & Grocery</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div class="topbar">
-    <div class="wrap">
-      <span>E Block Market, Rajajipuram, Lucknow — 226017</span>
-      <span>Roz khula · Subah 9:00 – Raat 9:00</span>
+  <div class="promo">Rajajipuram pickup free · Nearby delivery on WhatsApp · Shop visit: E Block Market</div>
+
+  <div class="wrap utility">
+    <a href="#track">Track Order</a>
+    <a href="#about">Quality Promise</a>
+    <a href="#wholesale">Bulk Order</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="wrap mast">
+    <a class="logo-lock" href="#home">
+      <div class="tag">PASSION FOR NUTRITION</div>
+      <h1>RUDRAKSH</h1>
+      <small>SINCE RAJAJIPURAM</small>
+    </a>
+    <form class="search" id="searchForm">
+      <select id="catSelect">
+        <option value="all">All Categories</option>
+        <option value="nuts">Jumbo Nuts</option>
+        <option value="snack">Snacking</option>
+        <option value="dates">Dates</option>
+        <option value="combo">Combos</option>
+        <option value="seeds">Seeds</option>
+        <option value="spice">Spices</option>
+        <option value="grocery">Grocery</option>
+      </select>
+      <input id="q" placeholder="Search for Badam, Kaju, Haldi..." />
+      <button type="submit" aria-label="Search">⌕</button>
+    </form>
+    <div class="icons">
+      <a href="#contact" title="Account">👤</a>
+      <button title="Wishlist">♡</button>
+      <button id="openCart" title="Cart">🛒<span class="badge" id="cartCount">0</span></button>
+      <a href="https://maps.google.com/?q=E+Block+Market+Rajajipuram+Lucknow" target="_blank" title="Store">📍</a>
     </div>
   </div>
 
-  <header>
-    <div class="wrap nav">
-      <a class="brand" href="#home">
-        <div class="logo">रु</div>
-        <div>
-          <h1>Rudraksh</h1>
-          <small>Dry Fruits &amp; Spices</small>
-        </div>
-      </a>
-      <nav class="nav-links">
-        <a href="#products">Products</a>
-        <a href="#spices">Masale</a>
-        <a href="#grocery">Grocery</a>
-        <a href="#about">Humare baare</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="btn" href="https://wa.me/919876543210" target="_blank">WhatsApp Order</a>
-    </div>
-  </header>
-
-  <section class="hero" id="home">
-    <div class="wrap hero-inner">
-      <p class="eyebrow">Rajajipuram · E Block Market</p>
-      <h2>Ghar ka swaad,<br>premium dry fruits aur asli masale.</h2>
-      <p>Rudraksh Dry Fruits and Spices par milta hai saaf, taza badam-kaju, whole aur ground masale, aur packed grocery — roz ke kitchen ke liye.</p>
-      <div class="hero-actions">
-        <a class="btn gold" href="#products">Products dekho</a>
-        <a class="btn" href="#contact">Dukaan pe aao</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="categories">
+  <nav class="catbar">
     <div class="wrap">
-      <h3>Teen cheezein, ek dukaan</h3>
-      <p class="lead">Dry fruits, spices aur packed grocery — quality check ke saath, loose aur packed dono options.</p>
-      <div class="cats">
-        <article class="cat">
-          <img src="images/mix.jpg" alt="Dry fruits mix" />
-          <div>
-            <h4>Dry Fruits</h4>
-            <p>Badam, kaju, pista, akhrot, kishmish, anjeer, khajoor aur mix packs.</p>
-          </div>
-        </article>
-        <article class="cat">
-          <img src="images/spices.jpg" alt="Indian spices" />
-          <div>
-            <h4>Spices &amp; Masale</h4>
-            <p>Haldi, mirch, jeera, dhaniya, garam masala, whole spices aur branded packs.</p>
-          </div>
-        </article>
-        <article class="cat">
-          <img src="images/kaju.jpg" alt="Premium kaju" />
-          <div>
-            <h4>Packed Grocery</h4>
-            <p>Atta, rice, dal, tel, namak, chini, poha, sooji aur daily kitchen items.</p>
-          </div>
-        </article>
+      <a href="#shop">Shop</a>
+      <a href="#shop" data-filter="nuts">Jumbo Nuts</a>
+      <a href="#shop" data-filter="snack">Snacking</a>
+      <a href="#shop" data-filter="dates">Dates</a>
+      <a href="#shop" data-filter="combo">Combos</a>
+      <a href="#shop" data-filter="seeds">Seeds</a>
+      <a href="#shop" data-filter="spice">Spices</a>
+      <a href="#wholesale">Buy Wholesale</a>
+      <a href="#contact">Store</a>
+    </div>
+  </nav>
+
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Festival Sale — Extra 10% OFF on mix packs</span>
+      <span>Rudraksh Jumbo Nuts — shop visit special</span>
+      <span>Super Saver: Mix 500g combo · Ask counter rate</span>
+      <span>Masale + Grocery packed items available daily</span>
+      <span>Festival Sale — Extra 10% OFF on mix packs</span>
+      <span>Rudraksh Jumbo Nuts — shop visit special</span>
+      <span>Super Saver: Mix 500g combo · Ask counter rate</span>
+      <span>Masale + Grocery packed items available daily</span>
+    </div>
+  </div>
+
+  <section class="hero wrap" id="home">
+    <div class="hero-card">
+      <div class="hero-copy">
+        <p>E BLOCK MARKET · RAJAJIPURAM</p>
+        <h2>Get An Extra<br><span>10% OFF</span></h2>
+        <p>USE CODE: <b>RUDRA10</b></p>
+        <a class="shop" href="#shop">SHOP NOW</a>
       </div>
     </div>
   </section>
 
-  <section class="section" id="products" style="background:#fff;">
-    <div class="wrap">
-      <h3>Dry Fruits</h3>
-      <p class="lead">Rate season aur quality grade ke hisaab se change ho sakte hain. Latest rate shop / WhatsApp par confirm karein.</p>
-      <div class="grid">
-        <div class="card"><p class="tag">Premium</p><h4>California Badam</h4><p class="note">Crunchy, fresh crop almonds</p><p class="price">Ask for rate / 250g–1kg</p></div>
-        <div class="card"><p class="tag">Premium</p><h4>Kaju W320 / W240</h4><p class="note">Whole cashews, gift ready</p><p class="price">Ask for rate / 250g–1kg</p></div>
-        <div class="card"><p class="tag">Special</p><h4>Iranian / California Pista</h4><p class="note">Salted roasted &amp; raw</p><p class="price">Ask for rate</p></div>
-        <div class="card"><p class="tag">Daily</p><h4>Akhrot Giri</h4><p class="note">Walnut kernels</p><p class="price">Ask for rate</p></div>
-        <div class="card"><p class="tag">Daily</p><h4>Kishmish / Munakka</h4><p class="note">Green, black &amp; Kandhari</p><p class="price">Ask for rate</p></div>
-        <div class="card"><p class="tag">Special</p><h4>Anjeer &amp; Khajoor</h4><p class="note">Afghani anjeer, kimia, medjool</p><p class="price">Ask for rate</p></div>
-        <div class="card"><p class="tag">Mix</p><h4>Panchmeva Mix</h4><p class="note">Vrat / gift mix</p><p class="price">Custom pack</p></div>
-        <div class="card"><p class="tag">Healthy</p><h4>Makhana, Chia, Flax</h4><p class="note">Roasted makhana &amp; seeds</p><p class="price">Ask for rate</p></div>
-      </div>
+  <section class="section wrap" id="shop">
+    <h3>Shop Dry Fruits, Spices & Grocery</h3>
+    <div class="pills" id="pills">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="nuts">Nuts</button>
+      <button data-filter="dates">Dates & Dry</button>
+      <button data-filter="snack">Snacking</button>
+      <button data-filter="spice">Spices</button>
+      <button data-filter="grocery">Grocery</button>
+      <button data-filter="combo">Combos</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="section wrap">
+    <div class="banner-row">
+      <a class="mini nut" href="#shop" data-filter="nuts"><h4>Jumbo Nuts</h4><p>Badam, Kaju, Pista, Akhrot</p></a>
+      <a class="mini spice" href="#shop" data-filter="spice"><h4>Kitchen Spices</h4><p>Haldi, Mirch, Jeera, Garam Masala</p></a>
     </div>
   </section>
 
-  <section class="section" id="spices">
-    <div class="wrap">
-      <h3>Spices &amp; Masale</h3>
-      <p class="lead">Whole spices loose, fresh ground, aur MDH / Everest / Catch jaise packed brands.</p>
-      <div class="grid">
-        <div class="card"><p class="tag">Powder</p><h4>Haldi, Lal Mirch, Dhaniya</h4><p class="note">Kitchen ke 3 base masale</p></div>
-        <div class="card"><p class="tag">Whole</p><h4>Jeera, Rai, Methi, Saunf</h4><p class="note">Tadka ke liye fresh stock</p></div>
-        <div class="card"><p class="tag">Aroma</p><h4>Elaichi, Laung, Dalchini</h4><p class="note">Chai, biryani, sweets</p></div>
-        <div class="card"><p class="tag">Blend</p><h4>Garam / Kitchen / Biryani Masala</h4><p class="note">Branded + house mix</p></div>
-        <div class="card"><p class="tag">Special</p><h4>Kashmiri Mirch &amp; Hing</h4><p class="note">Colour aur tadka</p></div>
-        <div class="card"><p class="tag">Daily</p><h4>Namak, Sendha, Gur, Chini</h4><p class="note">Cooking essentials</p></div>
-      </div>
+  <section class="section wrap" id="about">
+    <div class="trust">
+      <div><b>Fresh stock</b>Daily counter check</div>
+      <div><b>Loose + packed</b>Jo chahiye utna lo</div>
+      <div><b>Gift packs</b>Festival / shaadi boxes</div>
+      <div><b>Local shop</b>E Block Market, Rajajipuram</div>
     </div>
   </section>
 
-  <section class="section" id="grocery" style="background:#fff;">
-    <div class="wrap">
-      <h3>Packed Grocery</h3>
-      <p class="lead">Roz ke ghar ke items — trusted brands, sealed packs.</p>
-      <div class="grid">
-        <div class="card"><h4>Atta &amp; Sooji</h4><p class="note">Aashirvaad, Fortune, local fresh chakki (jab available)</p></div>
-        <div class="card"><h4>Rice &amp; Poha</h4><p class="note">Basmati, sona masoori, poha, murmura</p></div>
-        <div class="card"><h4>Dal &amp; Pulses</h4><p class="note">Moong, arhar, chana, masoor, rajma</p></div>
-        <div class="card"><h4>Tel &amp; Ghee</h4><p class="note">Mustard, refined, olive, desi ghee packs</p></div>
-        <div class="card"><h4>Tea, Coffee, Biscuits</h4><p class="note">Roz ke pantry staples</p></div>
-        <div class="card"><h4>Gift Hampers</h4><p class="note">Diwali, shaadi, vrat — custom dry fruit boxes</p></div>
-      </div>
-    </div>
+  <section class="section wrap" id="wholesale">
+    <h3>Bulk / Wholesale</h3>
+    <p style="color:#6b7280;max-width:640px">Hotel, tiffin, pooja samagri aur office gifting ke liye bulk rate WhatsApp par poochho. Rate season ke hisaab se confirm hote hain.</p>
   </section>
 
-  <section class="section" id="about">
-    <div class="wrap about">
-      <div>
-        <p class="eyebrow" style="color:var(--maroon)">E Block Market</p>
-        <h3>Rudraksh — neighbourhood pantry</h3>
-        <p class="lead">Rajajipuram ke E Block Market mein aapko taza dry fruits, asli masale aur packed grocery ek hi jagah milte hain. Hum loose bhi dete hain, gift pack bhi.</p>
-        <ul class="bullets">
-          <li>Quality check — kachra, kharab daana nikaal ke</li>
-          <li>Loose + packed dono options</li>
-          <li>Festival gift boxes on request</li>
-          <li>Local pickup, nearby delivery on WhatsApp</li>
-        </ul>
-      </div>
-      <img src="images/masala.jpg" alt="Masale display" />
-    </div>
-  </section>
-
-  <section class="section" id="contact" style="background:#fff;">
-    <div class="wrap">
-      <h3>Contact &amp; Order</h3>
-      <p class="lead">Phone number site par placeholder hai — apna asli WhatsApp number CSS/HTML mein badal dena.</p>
-      <div class="contact-grid">
-        <div class="info-box">
-          <h4>Dukaan</h4>
-          <p><strong>Rudraksh Dry Fruits and Spices</strong></p>
-          <p>E Block Market, Rajajipuram<br>Lucknow, Uttar Pradesh 226017</p>
-          <p>Time: 9:00 AM – 9:00 PM</p>
-          <p>WhatsApp: +91 98765 43210</p>
-          <p style="margin-top:16px">
-            <a class="btn" href="https://maps.google.com/?q=E+Block+Market+Rajajipuram+Lucknow" target="_blank">Google Maps</a>
-          </p>
-        </div>
-        <form id="orderForm">
-          <h4>WhatsApp par order</h4>
-          <input id="name" required placeholder="Aapka naam" />
-          <input id="phone" required placeholder="Mobile number" />
-          <select id="item">
-            <option>Dry fruits mix</option>
-            <option>Badam</option>
-            <option>Kaju</option>
-            <option>Pista</option>
-            <option>Masala pack</option>
-            <option>Grocery list</option>
-            <option>Gift hamper</option>
-          </select>
-          <input id="qty" placeholder="Quantity / list" />
-          <button class="btn gold" type="submit">WhatsApp bhejo</button>
-        </form>
-      </div>
-    </div>
+  <section class="section wrap" id="contact">
+    <h3>Visit the store</h3>
+    <p><b>Rudraksh Dry Fruits and Spices</b><br>E Block Market, Rajajipuram, Lucknow 226017<br>9:00 AM – 9:00 PM<br>WhatsApp: 0000000420</p>
   </section>
 
   <footer>
     <div class="wrap foot">
       <div>
-        <strong>Rudraksh Dry Fruits and Spices</strong><br />
-        E Block Market, Rajajipuram, Lucknow
+        <h4>Rudraksh</h4>
+        <p>Dry fruits, spices and packed grocery from E Block Market, Rajajipuram.</p>
       </div>
-      <div>© <span id="year"></span> Rudraksh. Local shop website.</div>
+      <div>
+        <h4>Shop</h4>
+        <a href="#shop">Nuts</a>
+        <a href="#shop">Spices</a>
+        <a href="#shop">Grocery</a>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <a href="#contact">Store locator</a>
+        <a href="https://wa.me/910000000420">WhatsApp order</a>
+      </div>
     </div>
+    <div class="wrap copy">© 2026 Rudraksh Dry Fruits and Spices · Rajajipuram</div>
   </footer>
 
-  <a class="wa" href="https://wa.me/919876543210" target="_blank" title="WhatsApp">WA</a>
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart" id="cart">
+    <div class="cart-h"><b>Your cart</b><button id="closeCart">✕</button></div>
+    <div class="cart-items" id="cartItems">Empty</div>
+    <div class="cart-foot">
+      <p>Total: ₹<span id="cartTotal">0</span></p>
+      <button class="add" id="waOrder">Order on WhatsApp</button>
+    </div>
+  </aside>
+  <a class="wa" href="https://wa.me/910000000420" target="_blank">WA</a>
   <script src="js/main.js"></script>
 </body>
 </html>
