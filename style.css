@@ -17,10 +17,10 @@ button { font: inherit; cursor: pointer; }
 .promo { background: #111; color: #fff; font-size: 13px; padding: 8px 0; text-align: center; }
 .promo b { color: #f5d48a; }
 .utility { display: flex; justify-content: flex-end; gap: 22px; font-size: 13px; padding: 8px 0; color: #334155; }
-.mast { display: grid; grid-template-columns: 220px 1fr auto; gap: 20px; align-items: center; padding: 12px 0 16px; }
+.mast { display: grid; grid-template-columns: 280px 1fr auto; gap: 20px; align-items: center; padding: 12px 0 16px; }
 .logo-lock { text-align: center; line-height: 1.1; }
 .logo-lock .tag { font-size: 10px; letter-spacing: .18em; color: var(--muted); }
-.logo-lock h1 { font-family: "Playfair Display", serif; font-size: 28px; }
+.logo-lock h1 { font-family: "Playfair Display", serif; font-size: 26px; letter-spacing: .04em; }
 .logo-lock small { display: block; font-size: 11px; color: var(--muted); letter-spacing: .12em; }
 .search { display: flex; border: 1px solid #d7dbe3; border-radius: 999px; overflow: hidden; background: #fff; }
 .search select, .search input { border: 0; padding: 12px 14px; outline: none; background: transparent; }
